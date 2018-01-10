@@ -1,0 +1,111 @@
+body {
+	margin: 0px;
+}
+*:focus {
+    outline: none;
+}
+
+#logo {
+	position: relative;
+	float: left;
+	width: 118px;
+	height: 38px;
+	margin-top: 28px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+#search_div {
+	background:#f2f2f2; 
+	height: 122px;
+	/*width: 100%;*/
+	padding-left: 170px;
+	border-bottom: 1px solid #e6e6e6;
+} 
+
+#search_box{
+	width:480px;
+	height:47px; 
+	border: 1px solid #cccccc;
+	padding-left:20px;
+	padding-top:1px;
+	font-size:20px;
+	color:black;
+	/*background:transparent url(searchicon3.png) no-repeat scroll left center;*/
+	margin-top: 24px;
+	vertical-align: bottom;
+}
+
+#search_box:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#search_box:-webkit-search-cancel-button{
+    position:relative;
+    right:20px;
+}
+
+#search_button {
+	background:#bfbfbf url('../images/searchicon3.png') no-repeat center;
+	height: 47px;
+	width: 47px;
+	border: 1px solid #cccccc;
+	cursor: pointer;
+	vertical-align: bottom;
+}
+#search_button:hover {
+	background:#888888 url('../images/searchicon3.png') no-repeat center;
+}
+
+.selected {
+	background: transparent;
+	margin-top: 20px;
+	padding-bottom: 13px;
+	border: none;
+	border-bottom: 3px solid #3399ff;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #3399ff;
+	cursor: pointer;
+}
+.unselected {
+	background: transparent;
+	margin-top: 20px;
+	padding-bottom: 13px;
+	border: none;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #b3b3b3;
+	cursor: pointer;
+}
+
+#results_container {
+	padding-left: 170px; 
+	padding-top: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.content {
+	margin-top: -10px;
+	font-size: 13px; 
+}
+.result {
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-top: 35px;
+}
+.result p span{
+	color: blue;
+	font-size: 21px;
+	font-weight: normal;
+}
+.result p{
+	font-size: 13px;
+	margin: 0px;
+	padding: 0px;
+}
+
+footer {
+    margin-top: 100px; 
+    padding-bottom: 20px;
+    text-align: left;
+    margin-left: 375px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 10px;
+}
